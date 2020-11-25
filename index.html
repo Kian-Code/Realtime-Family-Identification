@@ -1,0 +1,52 @@
+<html>
+
+<head>
+  <title>Realtime Family Identification</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body background="background.jpg">
+<center>
+  <h3 class="btn btn-info heading">Realtime Family Identification App
+    <hr>
+    <center>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 Heading_Div">
+        Model is trained on 
+        <br>
+        <div class="btn btn-warning Heading_Div_2">
+         | Mom | Dad | 
+        </div>
+      </div>
+    </center>
+    <br>
+  </h3>
+  <br><br>
+  <p class="btn btn-warning Result_Object">
+    Family Member : 
+    <span id="Result_Object_Name"></span>
+  </p>
+  <br><br>
+  <p class="btn btn-warning Result_Object">
+    Accuracy : 
+    <span id="Result_Object_Accuracy"></span>
+  </p>
+</center>
+<div class="Copyright_Footer">
+  Developed by - Kian Gala
+</div>
+<script src="main.js"></script>
+</body>
+
+</html>
+
+

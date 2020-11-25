@@ -1,0 +1,45 @@
+.heading {
+    font-size: 25px;
+    width: 90%;
+    margin: 15px;
+    box-shadow: 5px 5px 5px black;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 20px;
+}
+
+.Heading_Div {
+    float: none;
+    background: rgb(17, 156, 199);
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px darkblue;
+}
+
+.Heading_Div_2 {
+    font-size: 18px;
+}
+
+.Copyright_Footer {
+    position: fixed;
+    color: ivory;
+    background-color: rgb(32, 31, 31);
+    width: 100%;
+    bottom: 0;
+    line-height: 3;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.Result_Object {
+    box-shadow: 5px 5px 5px black;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+canvas {
+    border: 5px dashed rgb(56, 56, 255);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+    margin-top: 150px;
+}
